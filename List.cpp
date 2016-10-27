@@ -89,7 +89,22 @@ void List::remove(int k)
 	
 	delete delPtr;
 	num_elements--;
-	}
+}
 	
 	//Implementations of missing operations
-	
+void List::clear()
+{	
+    while (size() != 0)
+        remove(1);
+}
+
+void List::get(int k)
+{	
+	cout << k;
+}	
+    
+    
+    
+    
+    
+    

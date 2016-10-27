@@ -19,6 +19,8 @@ class List //begin List definition
      
      /** MISSING OPERATIONS */
      //... fill in ....
-
+     void clear();
+     void get(int k);	
+	
 };//end List definition
 
