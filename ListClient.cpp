@@ -18,5 +18,16 @@ int main()
     L1.remove(2);
  //Do some stuff with L1, L2, ...
  // ...
-
+  for(int i= 1;i < L1.size(); i++)
+	{
+		cout << L1.get(i) << endl;
+		//cout << L2.get(i) << endl;
+	}
+	cout << "\n" ;
+	for(int i= 1; i < L2.size(); i++)
+	{
+		//cout << L1.get(i) << endl;
+		cout << L2.get(i) << endl;
+	} 
+	cout << L1.get(2);
 }

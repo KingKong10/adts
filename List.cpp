@@ -98,10 +98,22 @@ void List::clear()
         remove(1);
 }
 
-void List::get(int k)
+int List::get(int k)
 {	
-	cout << k;
-}	
+	Node* kptr=frontPtr;
+	if(k == 1)
+	  return kptr->data;
+	else
+	{
+		for (int i=1; i <= k; i++)
+		{
+			kptr=kptr->link;
+		}
+		return kptr->data;
+	}
+}  
+	
+	
     
     
     
